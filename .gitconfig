@@ -1,0 +1,28 @@
+[user]
+	name = 王礼鹤
+	email = wanglihe.programmer@gmail.com
+[alias]
+	st = status
+	ci = commit
+	co = checkout
+	br = branch
+	di = diff 
+	logg = log --graph
+        logf = log --pretty=full
+[color]
+	ui = true
+[core]
+	editor = vim
+	quotepath = false
+[merge]
+	tool = vimdiff
+[log]
+	date = local
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = No
+[push]
+	default = simple
+[svn]
+	pushmergeinfo = true
